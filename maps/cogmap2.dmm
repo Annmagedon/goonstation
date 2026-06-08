@@ -55701,6 +55701,13 @@
 	},
 /turf/simulated/floor/white,
 /area/station/medical/medbay)
+"hAX" = (
+/obj/decal/tile_edge/floorguide{
+	dir = 4
+	},
+/obj/decal/tile_edge/floorguide/qm,
+/turf/simulated/floor/grey/blackgrime,
+/area/station/hangar/science)
 "hAY" = (
 /obj/machinery/atmospherics/unary/portables_connector{
 	dir = 8;
@@ -100729,7 +100736,7 @@ cZx
 cOR
 dby
 dcn
-iQB
+hAX
 mpo
 idD
 kwQ
