@@ -545,9 +545,10 @@ function ehjaxCallback(data) {
       if (data.decTalkTrigger) {
         message =
           '<a href="#" class="stopAudio icon-stack" title="Stop Audio" style="color: black;"><i class="icon-volume-off"></i><i class="icon-ban-circle" style="color: red;"></i></a> ' +
-          '<span class="italic">You hear a strange robotic voice...</span>' +
+          `<span class="italic">You hear a strange robotic voice${!!(data.dectalkSubtitles) ? " " + data.dectalkSubtitles : '...'}</span>` +
           message;
       }
+      output(JSON.stringify(data), 'string')
       output(message, 'preventLink');
     } else if (data.playMusic) {
       if (window.HTMLAudioElement) {

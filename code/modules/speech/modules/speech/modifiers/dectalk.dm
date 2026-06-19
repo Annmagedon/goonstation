@@ -9,7 +9,7 @@
 		return
 
 	SPAWN(0)
-		var/audio = dectalk("\[:nk\][message.get_content_parsable()]", BOTTALK_VOLUME)
+		var/audio = list("audio" = 'sound/effects/bubbles.ogg') //dectalk("\[:nk\][message.get_content_parsable()]", BOTTALK_VOLUME)
 		if (!audio || !audio["audio"])
 			return
 
@@ -17,7 +17,7 @@
 			if (!M.client || (M.client.ignore_sound_flags & (SOUND_VOX | SOUND_ALL)))
 				continue
 
-			ehjax.send(M.client, "browseroutput", list("dectalk" = audio["audio"]))
+			ehjax.send(M.client, "browseroutput", list("dectalk" = audio["audio"], "dectalk_subtitles"= message))
 
 /datum/speech_module/modifier/dectalk/proc/can_use_dectalk(datum/say_message/message)
 	return TRUE
