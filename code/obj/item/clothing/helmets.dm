@@ -600,7 +600,7 @@
 		name = "renforced syndicate hard hat."
 		icon_state = "hardhat_syndicate_overlord0"
 		item_state = "hardhat_syndicate_overlord0"
-		desc = "An irridium reinforced omnious helmet. An engraving on the inside reads 'V'."
+		desc = "An irridium reinforced omnious helmet. Something was engraved on it, but it was scratched off."
 
 		mat_changename = FALSE
 		default_material = "iridiumalloy"
