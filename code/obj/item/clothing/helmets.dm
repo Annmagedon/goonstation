@@ -597,13 +597,19 @@
 			return
 
 	syndicate_overlord // head of the syndicate's vesta cell: verdegris. The big boss(TM)
-		name = "renforced syndicate hard hat."
+		name = "\improper Renforced Syndicate Hard Hat."
 		icon_state = "hardhat_syndicate_overlord0"
 		item_state = "hardhat_syndicate_overlord0"
-		desc = "An irridium reinforced omnious helmet. Something was engraved on it, but it was scratched off."
+		desc = "A dense irridium reinforced omnious helmet. Something was engraved on it, but it was scratched off."
 
 		mat_changename = FALSE
 		default_material = "iridiumalloy"
+
+		c_flags = UNCRUSHABLE | TABLEPASS
+		throw_return = TRUE
+		throwforce = 15
+		throw_speed = 1
+		hit_type = DAMAGE_BLUNT
 
 
 		setupProperties()
