@@ -862,6 +862,12 @@ ABSTRACT_TYPE(/obj/item/clothing/under/misc)
 			qdel(src)
 	#endif
 
+/obj/item/clothing/under/misc/syndicate/overlord
+	name = "Foreboding ominous red overalls"
+	icon_state = "syndicate_overlord"
+	item_state = "syndicate_overlord"
+	desc = "Menacing overalls that irradiate evil authority. All labels were cut off."
+
 /obj/item/clothing/under/misc/turds
 	name = "NT combat uniform"
 	desc = "A Nanotrasen security jumpsuit."
