@@ -596,6 +596,41 @@
 					flashlight_button.icon_state = src.on ? "lighton" : "lightoff"
 			return
 
+	syndicate_overlord // head of the syndicate's vesta cell: verdegris. The big boss(TM)
+		name = "renforced syndicate hard hat."
+		icon_state = "hardhat_syndicate_overlord0"
+		item_state = "hardhat_syndicate_overlord0"
+		desc = "An irridium reinforced omnious helmet. An engraving on the inside reads 'V'."
+
+		mat_changename = FALSE
+		default_material = "iridiumalloy"
+
+
+		setupProperties()
+			..() // The big boss gets all the protection
+			setProperty("coldprot", 20)
+			setProperty("heatprot", 5)
+			setProperty("viralprot", 50)
+			setProperty("chemprot", 20)
+			setProperty("space_movespeed", 0.2)
+			setProperty("meleeprot_head", 6)
+			setProperty("exploprot", 10)
+			setProperty("radprot", 50)
+
+		flashlight_toggle(var/mob/user, var/force_on = 0, activated_inhand = FALSE)
+			on = !on
+			src.icon_state = "hardhat_syndicate_overlord[on]"
+			if (on)
+				light_dir.update(1)
+			else
+				light_dir.update(0)
+			user.update_clothing()
+			if (activated_inhand)
+				var/obj/ability_button/flashlight_hardhat/flashlight_button = locate(/obj/ability_button/flashlight_hardhat) in src.ability_buttons
+				if (istype(flashlight_button))
+					flashlight_button.icon_state = src.on ? "lighton" : "lightoff"
+			return
+
 /obj/item/clothing/head/helmet/hardhat/security // Okay it's not actually a HARDHAT but why write extra code?
 	name = "helmet"
 	icon_state = "helmet-sec"
