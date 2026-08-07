@@ -80,7 +80,7 @@
 /obj/item/reagent_containers/ampoule/smelling_salts,
 /obj/item/reagent_containers/ampoule/smelling_salts,
 /obj/machinery/light/small/floor/cool,
-/obj/item/storage/firstaid/docbag,
+/obj/item/storage/firstaid/docbag/field_surgeon/NT,
 /obj/machinery/light/emergencyflashing{
 	dir = 4;
 	pixel_x = 10
@@ -371,7 +371,7 @@
 /area/space)
 "rX" = (
 /obj/stool/bed/moveable/hospital,
-/obj/item/storage/medical_pouch,
+/obj/item/storage/ntsc_pouch/medic,
 /turf/unsimulated/floor/engine/glow/blue,
 /area/space)
 "sF" = (
@@ -725,7 +725,7 @@
 /obj/item/reagent_containers/ampoule/smelling_salts,
 /obj/item/reagent_containers/ampoule/smelling_salts,
 /obj/machinery/light/small/floor/cool,
-/obj/item/storage/firstaid/docbag,
+/obj/item/storage/firstaid/docbag/field_surgeon/NT,
 /turf/unsimulated/floor/engine/glow/blue,
 /area/space)
 "IW" = (
@@ -924,30 +924,30 @@
 	},
 /area/space)
 "OP" = (
-/obj/item/clothing/suit/hazard/paramedic/armored/prenerf{
-	pixel_x = -3;
-	rarity = 5
+/obj/item/clothing/suit/space/ntso/medic{
+	pixel_x = 6;
+	pixel_y = -3
 	},
-/obj/item/clothing/suit/hazard/paramedic/armored/prenerf{
-	pixel_x = 7;
-	rarity = 5
+/obj/item/clothing/suit/space/ntso/medic{
+	pixel_x = -6;
+	pixel_y = -4
 	},
 /obj/rack,
-/obj/item/clothing/head/bio_hood/nt{
+/obj/item/clothing/head/helmet/space/ntso/medic{
+	pixel_y = 10;
+	pixel_x = -4
+	},
+/obj/item/clothing/head/helmet/space/ntso/medic{
 	pixel_y = 10;
 	pixel_x = 6
 	},
-/obj/item/clothing/head/bio_hood/nt{
-	pixel_y = 10;
-	pixel_x = -3
+/obj/item/storage/belt/medical/prepared/NT{
+	pixel_x = -7;
+	pixel_y = 0
 	},
-/obj/item/storage/belt/utility/prepared/ceshielded{
-	desc = "An utility belt for usage in high-risk recovery operations. Contains a personal shield generator. Can be activated to overcharge the shields temporarily.";
-	pixel_x = -6
-	},
-/obj/item/storage/belt/utility/prepared/ceshielded{
-	desc = "An utility belt for usage in high-risk recovery operations. Contains a personal shield generator. Can be activated to overcharge the shields temporarily.";
-	pixel_x = 5
+/obj/item/storage/belt/medical/prepared/NT{
+	pixel_x = 7;
+	pixel_y = 0
 	},
 /turf/unsimulated/floor/engine/glow/blue,
 /area/space)
