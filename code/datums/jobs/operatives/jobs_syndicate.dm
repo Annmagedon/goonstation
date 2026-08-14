@@ -215,3 +215,10 @@ ABSTRACT_TYPE(/datum/job/special/syndicate/specialist)
 	slot_head = list(/obj/item/clothing/head/helmet/space/syndicate/specialist/voidops)
 	slot_suit = list(/obj/item/clothing/suit/space/syndicate/specialist/voidops)
 
+	special_setup(mob/living/carbon/human/M)
+		. = ..()
+		if (!M)
+			return
+
+		M.bioHolder.AddEffect(SPEECH_MODIFIER_ACCENT_VOID, innate = TRUE)
+		M.bioHolder.AddEffect("erebokinesis", innate = TRUE)
