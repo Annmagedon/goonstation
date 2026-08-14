@@ -1515,6 +1515,15 @@ TYPEINFO(/obj/item/clothing/suit/hazard/fire/armored)
 			icon_state = "syndie_specialist-bard"
 			item_state = "syndie_specialist-bard"
 
+		voidops
+			name = "Interdictoring hazmat combat suit"
+			desc = "A high tech piece of armor desgined to protect against void exposure."
+			icon_state = "syndie_specialist-voidops"
+			item_state = "syndie_specialist-voidops"
+			SYNDICATE_STEALTH_DESCRIPTION("It protects the outside from the void, not the inside.")
+			cant_self_remove = 1
+			cant_other_remove = 1
+
 		unremovable
 			cant_self_remove = 1
 			cant_other_remove = 1

@@ -465,6 +465,15 @@
 			icon_state = "syndie_specialist-bard"
 			item_state = "syndie_specialist-bard"
 
+		voidops
+			name = "Interdictoring hazmat combat helmet"
+			desc = "A high tech piece of armor desgined to protect against void exposure."
+			SYNDICATE_STEALTH_DESCRIPTION("It protects the outside from the void, not the inside.")
+			icon_state = "syndie_specialist-voidops"
+			item_state = "syndie_specialist-voidops"
+			cant_self_remove = 1
+			cant_other_remove = 1
+
 
 /obj/item/clothing/head/helmet/space/ntso //recoloured nuke class suits for ntso vs syndicate specialist
 	name = "NT combat helmet"
