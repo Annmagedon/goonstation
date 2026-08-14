@@ -208,3 +208,10 @@ ABSTRACT_TYPE(/datum/job/special/syndicate/specialist)
 			if(!M.equip_if_possible(speaker, SLOT_BACK))
 				M.stow_in_available(speaker)
 		M.stow_in_available(guitar)
+
+/datum/job/special/syndicate/specialist/voidops
+	name = "Syndicate Void Commando"
+	faction = list(FACTION_SYNDICATE, FACTION_DERELICT) // One with the void.
+	slot_head = list(/obj/item/clothing/head/helmet/space/syndicate/specialist/voidops)
+	slot_suit = list(/obj/item/clothing/suit/space/syndicate/specialist/voidops)
+
