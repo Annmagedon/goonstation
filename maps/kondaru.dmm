@@ -8358,6 +8358,7 @@
 /obj/machinery/light_switch/directional/east{
 	pixel_y = -7
 	},
+/obj/machinery/alarm/directional/south,
 /turf/simulated/floor/black,
 /area/station/crew_quarters/md)
 "aJI" = (
@@ -35959,8 +35960,11 @@
 /area/station/security/hos)
 "iXW" = (
 /obj/machinery/chem_dispenser/chemical,
-/obj/machinery/alarm/directional/north,
 /obj/mapping_helper/glassware_spawn,
+/obj/decal/poster/wallsign/framed_award/mdlicense{
+	pixel_x = 0;
+	pixel_y = 28
+	},
 /turf/simulated/floor/carpet/blue/fancy/edge/north,
 /area/station/crew_quarters/md)
 "iXZ" = (
