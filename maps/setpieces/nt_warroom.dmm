@@ -1,0 +1,500 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/decal/tile_edge/line/blue{
+	dir = 1;
+	icon_state = "line1"
+	},
+/obj/stool/chair/office/syndie,
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"b" = (
+/obj/table/nanotrasen/auto,
+/obj/item/paper_bin{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 6;
+	pixel_y = 1
+	},
+/obj/item/decoration/ashtray{
+	pixel_x = -6;
+	pixel_y = 0;
+	butts = 2;
+	layer = 3.6
+	},
+/obj/item/clothing/mask/cigarette{
+	on = -1;
+	icon_state = "cigbutt";
+	item_state = "cigbutt"
+	},
+/obj/item/cigpacket{
+	pixel_x = -2;
+	pixel_y = 12
+	},
+/turf/unsimulated/floor/wood/seven,
+/area/centcom)
+"c" = (
+/obj/decal/tile_edge/line/blue{
+	dir = 5;
+	icon_state = "line2"
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"f" = (
+/obj/table/nanotrasen/auto,
+/obj/machinery/phone,
+/obj/item/stamp/centcom{
+	pixel_x = 6;
+	pixel_y = -10
+	},
+/obj/item/pen/fancy{
+	pixel_x = 4;
+	pixel_y = 14
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"g" = (
+/obj/decal/tile_edge/line/blue{
+	icon_state = "line1"
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"h" = (
+/obj/decal/tile_edge/line/blue{
+	dir = 4;
+	icon_state = "line1"
+	},
+/obj/stool/chair/office/syndie{
+	dir = 8
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"i" = (
+/obj/decal/tile_edge/line/blue{
+	dir = 9;
+	icon_state = "line2"
+	},
+/obj/item/clothing/mask/cigarette{
+	on = -1;
+	icon_state = "cigbutt";
+	item_state = "cigbutt";
+	pixel_x = -10;
+	pixel_y = 12
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"k" = (
+/obj/item/clothing/mask/cigarette{
+	on = -1;
+	icon_state = "cigbutt";
+	item_state = "cigbutt";
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/turf/unsimulated/floor/wood/seven,
+/area/centcom)
+"l" = (
+/obj/machinery/light{
+	dir = 8;
+	pixel_x = -10
+	},
+/turf/unsimulated/floor/wood/seven,
+/area/centcom)
+"o" = (
+/obj/table/nanotrasen/auto,
+/obj/decoration/paperstack/small,
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -11;
+	pixel_y = 12
+	},
+/obj/item/pen{
+	pixel_x = 15;
+	pixel_y = 0
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"q" = (
+/obj/table/nanotrasen/auto,
+/obj/item/paper_bin{
+	pixel_x = 7;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/clothing/mask/cigarette{
+	on = -1;
+	icon_state = "cigbutt";
+	item_state = "cigbutt";
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"r" = (
+/obj/machinery/door/airlock/pyro/command/centcom,
+/turf/space,
+/area/centcom)
+"x" = (
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -10;
+	pixel_y = 15
+	},
+/turf/unsimulated/floor/wood/seven,
+/area/centcom)
+"z" = (
+/obj/machinery/light{
+	dir = 1;
+	layer = 9.1;
+	pixel_y = 21
+	},
+/obj/table/nanotrasen/auto,
+/obj/item/kitchen/food_box/sugar_box{
+	pixel_x = 1;
+	pixel_y = 13
+	},
+/obj/item/reagent_containers/food/drinks/creamer{
+	pixel_x = 10;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/drinks/milk{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 14;
+	pixel_y = -12
+	},
+/turf/unsimulated/floor/wood/seven,
+/area/centcom)
+"B" = (
+/obj/machinery/light{
+	dir = 4;
+	layer = 9.1;
+	pixel_x = 10
+	},
+/obj/storage/secure/closet/iron_safe,
+/obj/item/gun/energy/optio1{
+	pixel_x = 0;
+	pixel_y = -4
+	},
+/obj/item/gun/energy/optio1{
+	pixel_x = 2;
+	pixel_y = 7
+	},
+/turf/unsimulated/floor/wood/seven,
+/area/centcom)
+"C" = (
+/obj/decal/tile_edge/line/blue{
+	dir = 6;
+	icon_state = "line2"
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"D" = (
+/obj/table/nanotrasen/auto,
+/obj/item/stamp/centcom{
+	pixel_x = 7;
+	pixel_y = 8
+	},
+/obj/item/clothing/mask/cigarette{
+	on = -1;
+	icon_state = "cigbutt";
+	item_state = "cigbutt";
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/obj/item/pen/fancy{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"E" = (
+/obj/decal/tile_edge/line/blue{
+	dir = 10;
+	icon_state = "line2"
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"F" = (
+/obj/item/clothing/mask/cigarette{
+	on = -1;
+	icon_state = "cigbutt";
+	item_state = "cigbutt";
+	pixel_x = -10;
+	pixel_y = 12
+	},
+/turf/unsimulated/floor/wood/seven,
+/area/centcom)
+"H" = (
+/obj/machinery/light{
+	dir = 1;
+	layer = 9.1;
+	pixel_y = 21
+	},
+/obj/table/nanotrasen/auto,
+/obj/machinery/networked/printer{
+	name = "Printer - Bridge";
+	pixel_y = 5;
+	print_id = "Bridge"
+	},
+/obj/item/clipboard/with_pen{
+	pixel_x = 16;
+	pixel_y = 4
+	},
+/turf/unsimulated/floor/wood/seven,
+/area/centcom)
+"I" = (
+/obj/decal/tile_edge/line/blue{
+	dir = 8;
+	icon_state = "line1"
+	},
+/obj/stool/chair/office/syndie{
+	dir = 4;
+	l_move_time = 300876;
+	last_move = 4;
+	move_speed = 13;
+	name = "cosy chair";
+	p_class = 2
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"J" = (
+/obj/table/nanotrasen/auto,
+/obj/item/stamp/centcom{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/item/decoration/ashtray{
+	pixel_x = 13;
+	pixel_y = 10
+	},
+/obj/item/pen{
+	pixel_x = 7;
+	pixel_y = 6
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"K" = (
+/obj/table/nanotrasen/auto,
+/obj/decoration/paperstack/mid,
+/obj/item/clothing/mask/cigarette{
+	on = -1;
+	icon_state = "cigbutt";
+	item_state = "cigbutt";
+	pixel_x = -12;
+	pixel_y = 0
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"M" = (
+/obj/storage/secure/filing_cabinet{
+	pixel_x = -10;
+	pixel_y = 18
+	},
+/obj/storage/secure/filing_cabinet{
+	pixel_x = 0;
+	pixel_y = 18
+	},
+/obj/storage/secure/filing_cabinet{
+	pixel_x = 10;
+	pixel_y = 18
+	},
+/obj/item/clothing/mask/cigarette{
+	on = -1;
+	icon_state = "cigbutt";
+	item_state = "cigbutt";
+	pixel_x = -7;
+	pixel_y = 1
+	},
+/turf/unsimulated/floor/wood/seven,
+/area/centcom)
+"N" = (
+/turf/unsimulated/floor/wood/seven,
+/area/centcom)
+"P" = (
+/obj/table/nanotrasen/auto,
+/obj/machinery/phone,
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 8;
+	pixel_y = -2
+	},
+/obj/item/decoration/ashtray{
+	pixel_x = -8;
+	pixel_y = -3
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"R" = (
+/obj/table/nanotrasen/auto,
+/obj/machinery/coffeemaker/command{
+	pixel_x = 0;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/food/drinks/milkfrother{
+	pixel_x = 17;
+	pixel_y = 4
+	},
+/obj/drink_rack/mug{
+	pixel_y = 32
+	},
+/turf/unsimulated/floor/wood/seven,
+/area/centcom)
+"S" = (
+/obj/storage/crate/bin{
+	pixel_x = 5
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 13;
+	pixel_y = -9
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 6;
+	pixel_y = -9
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -4;
+	pixel_y = -7
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 13;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 4;
+	pixel_y = 0
+	},
+/turf/unsimulated/floor/wood/seven,
+/area/centcom)
+"U" = (
+/obj/table/nanotrasen/auto,
+/obj/machinery/phone,
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 14;
+	pixel_y = 0
+	},
+/obj/item/decoration/ashtray{
+	pixel_x = -15;
+	pixel_y = 6
+	},
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"V" = (
+/obj/table/podium_wood/nanotrasen,
+/obj/item/toy/gooncode{
+	pixel_x = -1;
+	pixel_y = 7
+	},
+/obj/machinery/light/small/floor/blueish,
+/turf/unsimulated/floor/shiny,
+/area/centcom)
+"X" = (
+/turf/unsimulated/wall/auto/lead/blue,
+/area/centcom)
+
+(1,1,1) = {"
+X
+X
+X
+X
+X
+X
+X
+X
+N
+"}
+(2,1,1) = {"
+X
+H
+x
+N
+N
+N
+N
+l
+N
+"}
+(3,1,1) = {"
+X
+b
+i
+I
+I
+I
+E
+N
+N
+"}
+(4,1,1) = {"
+X
+M
+a
+o
+f
+q
+g
+N
+N
+"}
+(5,1,1) = {"
+r
+k
+a
+U
+V
+J
+g
+N
+N
+"}
+(6,1,1) = {"
+X
+S
+a
+D
+P
+K
+g
+N
+N
+"}
+(7,1,1) = {"
+X
+R
+c
+h
+h
+h
+C
+N
+N
+"}
+(8,1,1) = {"
+X
+z
+F
+N
+N
+N
+N
+B
+N
+"}
+(9,1,1) = {"
+X
+X
+X
+X
+X
+X
+X
+X
+X
+"}
