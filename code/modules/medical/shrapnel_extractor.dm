@@ -17,8 +17,7 @@
 	flags = TABLEPASS | CONDUCT
 	c_flags = ONBELT
 	object_flags = NO_GHOSTCRITTER
-	tool_flags = TOOL_SNIPPING
-	hit_type = DAMAGE_STAB
+	hit_type = DAMAGE_BLUNT
 	hitsound = 'sound/impact_sounds/Flesh_Stab_2.ogg'
 	force = 5
 	w_class = W_CLASS_TINY
@@ -41,14 +40,14 @@
 		var/mob/living/carbon/human/patient = target
 
 		if (length(patient.implant) == 0)
-			boutput(user, SPAN_NOTICE("You wave around the [src], It has nothing to do, it is insulted."))
+			boutput(user, SPAN_NOTICE("You try to find a fragment wound on [target], but could not find any."))
 			return
 
 		SETUP_GENERIC_ACTIONBAR(user, src, 1 SECONDS ,PROC_REF(attempt_extraction), list(patient, user), src.icon, src.icon_state, null, src.interrupt_flags)
 
 
 /obj/item/bullet_extractor/proc/attempt_extraction(var/mob/living/carbon/human/patient as mob, var/mob/living/surgeon as mob)
-	var/fluff = pick(" messes up", "'s hand slips", " fumbles with [src]", " nearly drops [src]", "'s hand twitches", " makes a really messy cut", " accidentally pinches themselves", " had a messy disagreement with the [src]'s robotic arms", "'s medical incompetence is an insult to [src]'s advanced micro electronics")
+	var/fluff = pick(" messes up", "'s hand slips", " nearly drops [src]", "'s hand twitches", " accidentally vacuum their nose")
 
 	var/screw_up_prob = calc_screw_up_prob(patient, surgeon, 10)
 
@@ -57,8 +56,8 @@
 
 	if (surgeon.bioHolder.HasEffect("clumsy") && prob(30))
 		surgeon.visible_message(\
-		SPAN_ALERT("<b>[surgeon]</b> misuses the [src] so much that it slaps [surgeon] on [his_or_her(surgeon)] face!"), \
-		SPAN_ALERT("You fumble with the [src] and it becomes so insulted with your lack of skill that it slaps you on the face!"))
+		SPAN_ALERT("<b>[surgeon]</b> points the [src] to [his_or_her(surgeon)] face to check if its working and sucks [his_or_her(surgeon)] eyeball!"), \
+		SPAN_ALERT("You point the [src] to your face and suck in your eyeball!"))
 
 		surgeon.changeStatus("disorient", 2 SECOND)
 		JOB_XP(surgeon, "Clown", 1)
@@ -68,12 +67,12 @@
 		return
 
 	if (surgeon.a_intent == INTENT_DISARM)
-		boutput(surgeon, SPAN_NOTICE("You intentionally hurt [patient] with the [src], an insult to the craftmanship."))
+		boutput(surgeon, SPAN_NOTICE("You intentionally shimmy the [src] into the [patient]'s wound."))
 		do_slipup(surgeon, patient, "chest", damage_high, fluff)
 
 		return
 
-	playsound(patient, 'sound/impact_sounds/Slimy_Cut_1.ogg', 50, TRUE)
+	playsound(patient, 'sound/effects/suck.ogg', 20, TRUE)
 
 	if(prob(screw_up_prob))
 		do_slipup(surgeon, patient, "chest", damage_low, fluff)
@@ -83,8 +82,8 @@
 	for (var/obj/item/implant/projectile/I in patient.implant)
 		surgeon.tri_message(patient, \
 			SPAN_ALERT("<b>[surgeon]</b> reaches with the [src] into [patient == surgeon ? his_or_her(patient) : "[patient]'s"] wound and pull \an [I] from [patient == surgeon ? "[him_or_her(patient)]self" : patient] with the [src]!"),\
-			SPAN_ALERT("You pluck out \an [I] from [surgeon == patient ? "yourself" : "[patient]"] with [src]!"),\
-			SPAN_ALERT("[patient == surgeon ? "You pluck" : "<b>[surgeon]</b> plucks"] out \an [I] from you with [src]!"))
+			SPAN_ALERT("You suck out \an [I] from [surgeon == patient ? "yourself" : "[patient]"] with [src]!"),\
+			SPAN_ALERT("[patient == surgeon ? "You suck" : "<b>[surgeon]</b> suck"] out \an [I] from you with [src]!"))
 
 		I.on_remove(patient)
 		patient.implant.Remove(I)
