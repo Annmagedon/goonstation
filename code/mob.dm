@@ -440,6 +440,7 @@ TYPEINFO(/mob)
 	lastattacked = null
 	lastattacker = null
 	health_update_queue -= src
+	src.movement_modifiers.len = 0
 
 	for(var/x in src)
 		qdel(x)
@@ -2587,6 +2588,7 @@ TYPEINFO(/mob)
 	actions.interrupt(src, INTERRUPT_ACT)
 
 /mob/proc/adjust_throw(datum/thrown_thing/thr)
+	SEND_SIGNAL(src, COMSIG_MOB_THROW_ADJUST, thr)
 	return
 
 /mob/throw_impact(atom/hit, datum/thrown_thing/thr)
